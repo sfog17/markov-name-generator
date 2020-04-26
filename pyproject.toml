@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "markov-name-generator"
+version = "0.1.0"
+description = ""
+authors = ["sfog17"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.0.3"
+numpy = "^1.18.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.770"
+pylint = "^2.4.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+gen-name = "markov_name_generator.generate_name:main"
+gen-city-name = "markov_name_generator.generate_city_name:main"
