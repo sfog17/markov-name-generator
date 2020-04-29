@@ -31,7 +31,7 @@ You can then use it to:
 Usage:
 
 ```cmd
-usage: gen-city-name [-h] [--nb_names NB_NAMES] [--window_size window_size] iso_country_code
+usage: gen-city-name [-h] [--nb_names NB_NAMES] [--window_size WINDOW_SIZE] iso_country_code
 
 positional arguments:
   iso_country_code     Country ISO code to generate city name from
@@ -39,7 +39,7 @@ positional arguments:
 optional arguments:
   -h, --help           show this help message and exit
   --nb_names NB_NAMES  Number of random ciy names to print
-  --window_size window_size    Length of the sequence of characters to use when building the chains
+  --window_size WINDOW_SIZE    Length of the sequence of characters to use when building the chains
 ```
 
 Example:
@@ -55,7 +55,7 @@ gen-city-name FR --nb_names 30 --window_size 8
 Usage:
 
 ```cmd
-usage: gen-name [-h] [--nb_names NB_NAMES] [--window_size window_size] path_examples
+usage: gen-name [-h] [--nb_names NB_NAMES] [--window_size WINDOW_SIZE] path_examples
 
 positional arguments:
   path_examples        A .txt file with examples - 1 word per line
@@ -63,7 +63,7 @@ positional arguments:
 optional arguments:
   -h, --help           show this help message and exit
   --nb_names NB_NAMES  Number of random ciy names to print
-  --window_size window_size    Length of the sequence of characters to use when building the chains
+  --window_size WINDOW_SIZE    Length of the sequence of characters to use when building the chains
 ```
 
 Example:
